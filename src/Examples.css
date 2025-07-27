@@ -1,0 +1,110 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.signout-button {
+  background-color: #ef4444;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.patient-list {
+  list-style: none;
+  padding: 0;
+}
+
+.patient-card {
+  padding: 12px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+.condition-stable {
+  color: green;
+  background-color: #d1fadf;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.condition-unstable {
+  color: orange;
+  background-color: #fff3cd;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.selected-patient {
+  margin-top: 32px;
+  padding: 12px;
+  border-top: 2px solid #ccc;
+  text-align: left;
+}
+
+.edit-section, .add-section {
+  margin-top: 32px;
+  text-align: left;
+}
+
+.edit-section input,
+.add-section input {
+  display: block;
+  margin-bottom: 8px;
+  padding: 6px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.edit-section button,
+.add-section button {
+  padding: 6px 12px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 4px;
+  float: right;
+  margin-top: 8px;
+}
+
+.delete-button:hover {
+  color: #d33;
+  text-decoration: underline;
+}
+
+
+.edit-button {
+  background: none;
+  border: none;
+  color: #3b82f6; /* light blue */
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: color 0.2s ease;
+}
+
+.edit-button:hover {
+  color: #1d4ed8; /* darker blue on hover */
+}
